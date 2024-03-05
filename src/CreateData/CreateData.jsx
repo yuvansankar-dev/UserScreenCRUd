@@ -166,7 +166,7 @@ const CreateData = ({ initialValues, validationSchema, onSubmit }) => {
         </div>
       </div>
       <br />
-      <button type='submit'>Update</button>
+      <button type='submit'>Create</button>
     </form>
   );
 };

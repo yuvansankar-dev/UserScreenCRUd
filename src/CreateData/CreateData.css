@@ -1,0 +1,4 @@
+input,
+.input + div {
+  display: block;
+}

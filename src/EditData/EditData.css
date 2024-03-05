@@ -1,0 +1,60 @@
+input {
+  width: 350px;
+  height: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  width: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+label + div {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+}
+span {
+  color: red;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 10px;
+  align-items: center;
+  height: 95vh;
+}
+
+form {
+  background-color: #9f9fe1;
+  color: white;
+  padding: 30px 30px;
+  border-radius: 6px;
+  width: max-content;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  color: white;
+  background-color: #36364d;
+}
+h2 {
+  margin: 30px 0px;
+}
+.headerProperty {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  margin: 30px 0px;
+}

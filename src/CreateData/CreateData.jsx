@@ -11,7 +11,7 @@ const CreateData = ({ initialValues, validationSchema, onSubmit }) => {
 
   return (
     <form onSubmit={Formik.handleSubmit}>
-      <h2>Edit User</h2>
+      <h2>Create User</h2>
       <br />
       <div>
         <label>Nick Name</label>
